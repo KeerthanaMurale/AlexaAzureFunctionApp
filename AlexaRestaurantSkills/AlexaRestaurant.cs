@@ -30,19 +30,3 @@ namespace AlexaRestaurantSkills
         }
     }
 }
-
-
-
-//            // handle launchrequest
-//            if (requestType == typeof(LaunchRequest))
-//            {
-//                var res = ResponseBuilder
-//                  .Ask("Hello! Welcome to My Alex Restaurant. I can help you to order and to view the item description.",
-//                       new Reprompt("what can i help you to order today"));
-
-//res.Response.ShouldEndSession = false;
-//                return res;
-//            }
-
-
-//return ResponseBuilder.TellWithCard("Oops, something went wrong here.Unable to find your search", "sorry", "Oops, something went wrong here.");
